@@ -1,0 +1,49 @@
+.foto-placeholder {
+    width: 400px;
+    height: 400px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.foto-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.container {
+    display: flex;
+
+}
+.esquerda {
+    flex: 1;
+    background-color: #ffffff;
+}
+
+.direita {
+    flex: 2;
+    background-color: #ffffff;
+}
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.esquerda {
+    flex: 1;
+    background-color: #342048;
+    color: white;
+    padding: 10px;
+}
+
+.direita {
+    flex: 2;
+    background-color: gray;
+    padding: 20px;
+}
